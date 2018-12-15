@@ -12,3 +12,4 @@
 - inIframe 判断是否在iframe下，只要判断window.self是否是window.top
 - searchStringInArray 在数组中搜索字符串
 - serializeObj 序列化对象成url字符串
+- guid 生成uuid
