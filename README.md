@@ -7,7 +7,6 @@
 - createFunctionByString 通过字符串来创建函数
 - dataFormat 时间格式化
 - deepCopy 深拷贝
-- getKeyPath 通过key path获取object的值方法
 - getUrlParam 获取链接参数
 - inIframe 判断是否在iframe下，只要判断window.self是否是window.top
 - searchStringInArray 在数组中搜索字符串
@@ -15,3 +14,5 @@
 - guid 生成uuid
 - once 运行一次方法
 - scrollWithEase 滚动到指定位置包含动画
+- hashCode 输出对应输入的hash code
+- searchKeyInObject 通过key path获取object的值方法,如 home.page.test.age
