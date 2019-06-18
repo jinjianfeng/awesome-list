@@ -16,3 +16,7 @@
 - scrollWithEase 滚动到指定位置包含动画
 - hashCode 输出对应输入的hash code
 - searchKeyInObject 通过key path获取object的值方法,如 home.page.test.age
+- toFixed 取多少位小数
+- strReplacer 字符串替换函数strReplacer('今天{{0}},明天{{1}}', '星期一', '星期二')
+- setItem / getItem 本地存储，localstorge
+- throttleAjax 在ajax fulfilled的时候才解锁，节流
