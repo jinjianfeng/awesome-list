@@ -14,3 +14,4 @@
 - serializeObj 序列化对象成url字符串
 - guid 生成uuid
 - once 运行一次方法
+- scrollWithEase 滚动到指定位置包含动画
