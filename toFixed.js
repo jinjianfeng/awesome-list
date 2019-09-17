@@ -1,4 +1,5 @@
-function toFixed(number, decimals) {
-  var x = Math.pow(10, Number(decimals) + 1);
-  return (Number(number) + 1 / x).toFixed(decimals);
-}
+function toFixed (number, base) {
+  const pow = Math.pow(base || 10, number);
+  return Math.round(this * pow) / pow;
+};
+
